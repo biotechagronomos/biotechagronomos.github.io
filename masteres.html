@@ -44,6 +44,11 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+  <nav class="navbar navbar-default" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+
+ 
     
 
 	 <div class="navbar-wrapper">
@@ -57,6 +62,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
+			  <img class="img-circle" src="images\Logo.jpg" alt="Logo" width="50" height="50">
+			  <a class="navbar-brand" href="#" style="color:#ffffff;">Biotech Agrónomos</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -101,7 +108,7 @@
 
 <div class="col-md-4"> 
 <input autocomplete="off" class="form-control ui-autocomplete-input" id="tags">
-<button id="remButt" class="label label-default" onclick="showRows();" style="font-size: 75%; font-weight: bold; line-height: 1; display: none;"><span class="submit glyphicon glyphicon-remove"></span>  Borrar filtro</button>
+<button id="remButt" class="label label-default" onclick="showRows();" style="font-size: 75%; font-weight: bold; line-height: 1; display: none;"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>Borrar filtro</button>
 </div>
 </div>
 </div>
@@ -128,11 +135,11 @@
 				ejecutivos en empresas farmacéuticas y biotecnológicas de la salud. Competencias 
 				como análisis crítico, toma de decisiones, resolución de problemas, comunicación, negociación
 				y liderazgo que permitirán la incorporación en diferentes departamentos empresariales.</p></td>
-                <td><button type="button" class="btn btn-success">Título propio</button></td>
+                <td><span class="label label-pill label-success">Título propio</span></td>
 				<td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">MBA</span>
-				<span class="label label-primary">sanitario</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">MBA</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
 				<input name="inp1" id="inp1" value="España--MBA--sanitario--" type="hidden">
               </tr>
@@ -145,9 +152,9 @@
 				Programa centrado en el estudio de la evolución de las especies desde el punto de vista de la conservación 
 				de la biodiversidad, producción de alimentos, amenazas mediambientales, etc. Completando 
 				así la formación de alumnos provenientes del área científica en un campo puntero. </td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
-                <td><span class="label label-primary">España</span>
-				<span class="label label-primary">computacional</span>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
+                <td><span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">computacional</span>
 				</td>
 				<input name="inp2" id="inp2" value="España--computacional--" type="hidden">
               </tr>
@@ -160,10 +167,10 @@
 				Tiene como objetivo formar profesionales con sólidos conocimientos de biomedicina molecular
 				y celular, que puedan trabajar en la frontera de la investigación básica con la investigación clínica 
 				y sean capaces de impulsar una investigación traslacional de alta calidad.</p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">sanitario</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
 				<input name="inp3" id="inp3" value="España--sanitario--" type="hidden">
               </tr>
@@ -175,11 +182,11 @@
 				<br><span style="font-size: 10px;">Instituto Karolinska (KI), Suecia</span><br>
 				Máster enfocado en la gestión y desarrollo de proyectos dentro de los diferentes 
 				departamentos de compañías farmacéuticas, biotecnológicas u otras industrias relacionadas.</p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">En el extranjero</span>
-				<span class="label label-primary">sanitario</span>
-				<span class="label label-primary">empresarial</span>
+				<span class="label label-pill label-info">En el extranjero</span>
+				<span class="label label-pill label-info">sanitario</span>
+				<span class="label label-pill label-info">empresarial</span>
 				</td>
 				<input name="inp4" id="inp4" value="En el extranjero--sanitario--empresarial--" type="hidden">
               </tr>
@@ -193,10 +200,10 @@
 				bioinformática: el análisis de estructuras, el análisis de secuencias y la química informática. 
 				Formando especialistas en un sector de creciente necesidad, ya sea para su incorporación a la empresa
 				o para la realización de un doctorado.</td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">En el extranjero</span>
-				<span class="label label-primary">computacional</span>
+				<span class="label label-pill label-info">En el extranjero</span>
+				<span class="label label-pill label-info">computacional</span>
 				</td>
 				<input name="inp5" id="inp5" value="En el extranjero--computacional--" type="hidden">
               </tr>
@@ -209,10 +216,10 @@
 				El programa aporta una intensa enseñanza en Bioinformática, con fundamentos en el desarrollo
 				de conocimiento bioinformático esencial y de habilidades computacionales dentro de un contexto
 				de investigación académica. También se imparte una introducción a Biología de Sistemas.</p>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">En el extranjero</span>
-				<span class="label label-primary">computacional</span>
+				<span class="label label-pill label-info">En el extranjero</span>
+				<span class="label label-pill label-info">computacional</span>
 				</td>
 				<input name="inp6" id="inp6" value="En el extranjero--computacional--" type="hidden">
               </tr>
@@ -225,12 +232,12 @@
 				Los estudiantes obtendrán un profundo conocimiento sobre los diferentes mecanismos moleculares
 				y celulares causantes de enfermedades, incluyendo enfermedades genéticas y cáncer, con especial 
 				énfasis en mecanismos epigenéticos.</p>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">En el extranjero</span>
-				<span class="label label-primary">computacional</span>
+				<span class="label label-pill label-info">En el extranjero</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
-				<input name="inp7" id="inp7" value="En el extranjero--computacional--" type="hidden">
+				<input name="inp7" id="inp7" value="En el extranjero--sanitario--" type="hidden">
               </tr>
 			  <tr id="tr8">
                 <td align="center"><a href="http://biociencias.bq.uam.es/master_Biomoleculas_Dinamica_Celular/">
@@ -241,10 +248,10 @@
 				Focalizado en el conocimiento de las estructuras y procesos moleculares de los seres vivos y la 
 				utilización de herramientas experimentales y computacionales para su estudio. 
 				Especialmente orientado a la preparación de estudiantes interesados en acceder al Doctorado.</p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">sanitario</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
 				<input name="inp8" id="inp8" value="España--sanitario--" type="hidden">
               </tr>
@@ -257,10 +264,10 @@
 				Máster que ofrece a recién graduados en ciencias biológicas la posibilidad de especializarse 
 				en Biofísica. Los estudiantes adquirirán un conocimiento desde el punto de vista físico de los 
 				sistemas biológicos, utilizando tanto herramientas computacionales como experimentales.</p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">computacional</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">computacional</span>
 				</td>
 				<input name="inp9" id="inp9" value="España--computacional--" type="hidden">
               </tr>
@@ -273,10 +280,10 @@
 				El estudiante adquirirá las competencias requeridas en relación con la investigación preclínica
 				o clínica de los fármacos, y con su aplicación en el uso terapéutico de los medicamentos para que
 				pueda integrarse en el ámbito profesional o acceder a unos estudios de doctorado.</p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">sanitario</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
 				<input name="inp10" id="inp10" value="España--sanitario--" type="hidden">
               </tr>
@@ -289,10 +296,10 @@
 				Con un programa pensado para la formación y promoción del conocimiento en los campos 
 				de la investigación en Inmunología e Inmunopatología, así como en la Medicina Regenerativa,
 				incluyendo los aspectos de Terapia Celular y Terapia Génica.</p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">sanitario</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
 				<input name="inp11" id="inp11" value="España--sanitario--" type="hidden">
               </tr>
@@ -305,10 +312,10 @@
 				Máster impartido por la ETH y la Universidad de Zurich (UZH). El objetivo del programa
 				es dotar a los estudiantes de un amplio conocimiento en Biología Computacional y Bioinformática 
 				a partir de fundamentos informáticos, biológicos y matemáticos.</p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">En el extranjero</span>
-				<span class="label label-primary">computacional</span>
+				<span class="label label-pill label-info">En el extranjero</span>
+				<span class="label label-pill label-info">computacional</span>
 				</td>
 				<input name="inp12" id="inp12" value="En el extranjero--computacional--" type="hidden">
               </tr>
@@ -321,10 +328,10 @@
 				<span style="text-align: justify;">Su objetivo fundamental es la formación de profesionales en l
 				as nuevas herramientas biotecnológicas y genómicas aplicables al sector agroforestal y alimentario,
 				y a la investigación en Biología Molecular de Plantas y Microorganismos.</span></p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">plantas</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">plantas</span>
 				</td>
 				<input name="inp13" id="inp13" value="España--plantas--" type="hidden">
               </tr>
@@ -337,11 +344,11 @@
 				<span style="text-align: justify;">Máster que pretende enriquecer los conocimientos básicos 
 				de Microbiología y Parasitología de los graduados que accedan al mismo con otros más especializados, 
 				de modo que puedan responder a las demandas de I+D de los sectores público y privado. </span></p></td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">plantas</span>
-				<span class="label label-primary">sanitario</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">plantas</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
 				<input name="inp14" id="inp14" value="España--plantas--sanitario--" type="hidden">
               </tr>
@@ -353,10 +360,10 @@
 				<br><span style="font-size: 10px;">Universidad de Alcalá de Henares (UAH), España</span><br>
 				El máster está orientado hacia una formación en la búsqueda y selección de nuevos fármacos 
 				mediante la detección y validación de dianas terapéuticas.</td>
-                <td><button type="button" class="btn btn-success">Título oficial</button></td>
+                <td><span class="label label-pill label-success">Título oficial</span></td>
                 <td>
-				<span class="label label-primary">España</span>
-				<span class="label label-primary">sanitario</span>
+				<span class="label label-pill label-info">España</span>
+				<span class="label label-pill label-info">sanitario</span>
 				</td>
 				<input name="inp15" id="inp15" value="España--sanitario--" type="hidden">
               </tr>
