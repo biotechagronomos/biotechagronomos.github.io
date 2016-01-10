@@ -1,0 +1,29 @@
+.navbar-text > a {
+	color:inherit;
+	text-decoration:none;
+	}
+.fa-twitter {
+    background:#fff ;
+    border-radius: 0;
+    color: #00acee
+}
+.fa-twitter:link, .fa-twitter:visited {
+    color: #00acee
+}
+.fa-twitter:active, .fa-twitter:hover {
+    background:#fff ;
+    color: #0087bd
+}
+.fa-facebook-square{
+    background: #fff;
+    border-radius: 0;
+    color: #3b5998;
+}
+.fa-facebook-square:link, .fa-facebook-square:visited {
+    color: #3b5998;
+}
+.fa-facebook-square:active, .fa-facebook-square:hover {
+    background: #fff;
+    color: #30477a;
+}
+
