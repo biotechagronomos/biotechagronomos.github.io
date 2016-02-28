@@ -73,6 +73,7 @@
                 <li><a href="trabajo.html">Búsqueda de trabajo</a></li>
 				<li><a href="practicas.html">Programas de prácticas</a></li>
 				<li><a href="contacto.html">Contacta</a></li>
+				
                 <!--<li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -374,6 +375,48 @@
               </tr>
             </tbody>
           </table>
+		  <div class="container">	
+ <!-- Contacts -->
+ <div id="contacts">
+   <div class="row">	
+     <!-- Alignment -->
+	<div class="col-sm-offset-3 col-sm-6">
+	   <!-- Form itself -->
+          <form name="sentMessage" class="well" id="contactForm"  novalidate>
+	       <legend>Contacto</legend>
+		 <div class="control-group">
+                    <div class="controls">
+			<input type="text" class="form-control" 
+			   	   placeholder="Nombre y Apellidos" id="name" required
+			           data-validation-required-message="Por favor, introduzca su nombre" />
+			  <p class="help-block"></p>
+		   </div>
+	         </div> 	
+                <div class="control-group">
+                  <div class="controls">
+			<input type="email" class="form-control" placeholder="Email" 
+			   	            id="email" required
+			   		   data-validation-required-message="Por favor, introduzca su email" />
+		</div>
+	    </div> 	
+			  
+               <div class="control-group">
+                 <div class="controls">
+				 <textarea rows="10" cols="100" class="form-control" 
+                       placeholder="Mensaje" id="message" required
+		       data-validation-required-message="Introduzca el mensaje" minlength="5" 
+                       data-validation-minlength-message="Min 5 caracteres" 
+                        maxlength="999" style="resize:none"></textarea>
+		</div>
+               </div> 		 
+	     <div id="success"> </div> <!-- For success/fail messages -->
+	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+          </form>
+	</div>
+      </div>
+    </div>
+   </div>
+	
         
 		</div>
       
@@ -389,6 +432,9 @@
 					<p>&copy; 2015 Biotech Agrónomos. &middot;</p>
 					</footer>   
 		</div><!-- /.container -->
+		
+	<script src="vocab.linkeddata.es_files/contact_me.js"></script>
+	<script src="vocab.linkeddata.es_files/jqBootstrapValidation.js"></script>
 <script>
 $(function() {
 var availableTags = [
