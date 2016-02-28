@@ -103,6 +103,47 @@
 		y te haremos llegar una ficha que han rellenado los propios alumnos. Si después de esa ficha te quedan más dudas,
 		te pondremos en contacto directo con el biotecnólogo que esté cursando el máster en cuestión. 
 		No seáis tímidos y preguntadnos todo lo que queráis.</p>
+		<div class="container">	
+ <!-- Contacts -->
+ <div id="contacts">
+   <div class="row">	
+     <!-- Alignment -->
+	<div class="col-sm-offset-3 col-sm-6">
+	   <!-- Form itself -->
+          <form name="sentMessage" class="well" id="contactForm"  novalidate>
+	       <legend>Contacto</legend>
+		 <div class="control-group">
+                    <div class="controls">
+			<input type="text" class="form-control" 
+			   	   placeholder="Nombre y Apellidos" id="name" required
+			           data-validation-required-message="Por favor, introduzca su nombre" />
+			  <p class="help-block"></p>
+		   </div>
+	         </div> 	
+                <div class="control-group">
+                  <div class="controls">
+			<input type="email" class="form-control" placeholder="Email" 
+			   	            id="email" required
+			   		   data-validation-required-message="Por favor, introduzca su email" />
+		</div>
+	    </div> 	
+			  
+               <div class="control-group">
+                 <div class="controls">
+				 <textarea rows="10" cols="100" class="form-control" 
+                       placeholder="Mensaje" id="message" required
+		       data-validation-required-message="Introduzca el mensaje" minlength="5" 
+                       data-validation-minlength-message="Min 5 caracteres" 
+                        maxlength="999" style="resize:none"></textarea>
+		</div>
+               </div> 		 
+	     <div id="success"> </div> <!-- For success/fail messages -->
+	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+          </form>
+	</div>
+      </div>
+    </div>
+   </div>
 		<h4><br><b>Filtrar la búsqueda</b></h4>
 		<div class="row"> 
 				<div class="ui-widget">
@@ -375,47 +416,7 @@
               </tr>
             </tbody>
           </table>
-		  <div class="container">	
- <!-- Contacts -->
- <div id="contacts">
-   <div class="row">	
-     <!-- Alignment -->
-	<div class="col-sm-offset-3 col-sm-6">
-	   <!-- Form itself -->
-          <form name="sentMessage" class="well" id="contactForm"  novalidate>
-	       <legend>Contacto</legend>
-		 <div class="control-group">
-                    <div class="controls">
-			<input type="text" class="form-control" 
-			   	   placeholder="Nombre y Apellidos" id="name" required
-			           data-validation-required-message="Por favor, introduzca su nombre" />
-			  <p class="help-block"></p>
-		   </div>
-	         </div> 	
-                <div class="control-group">
-                  <div class="controls">
-			<input type="email" class="form-control" placeholder="Email" 
-			   	            id="email" required
-			   		   data-validation-required-message="Por favor, introduzca su email" />
-		</div>
-	    </div> 	
-			  
-               <div class="control-group">
-                 <div class="controls">
-				 <textarea rows="10" cols="100" class="form-control" 
-                       placeholder="Mensaje" id="message" required
-		       data-validation-required-message="Introduzca el mensaje" minlength="5" 
-                       data-validation-minlength-message="Min 5 caracteres" 
-                        maxlength="999" style="resize:none"></textarea>
-		</div>
-               </div> 		 
-	     <div id="success"> </div> <!-- For success/fail messages -->
-	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
-          </form>
-	</div>
-      </div>
-    </div>
-   </div>
+
 	
         
 		</div>
