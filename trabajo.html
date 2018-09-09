@@ -93,7 +93,7 @@
 	<div class="btn-group">
 	
     <a id="displayText" href="javascript:toggle();"><h2><b>Portales nacionales &nbsp;</b><i class="fa fa-plus"></i></h2></a>
-		<div id="toggleText" style="display: none"><h2>
+		<div id="toggleText" style="display: none">
      <div class="row">
 		<div class="col-lg-4"><a href="https://www.talentoteca.es/"><img id="trabajo" class="img" src="images/Trabajo/talentoteca-logo-s.png" alt="Generic placeholder image" width="250" height="100"></a>
 				<p align="justify">Portal de la Fundación Universidad-Empresa en el que se ponen en contacto empresas con los recién graduados. 
@@ -181,7 +181,8 @@
 			  </div><!-- /.row -->   
          </div>	<!--colapse-->	
 			
-     <h2><b>Portales internacionales</b></h2>  
+        <a id="displayText" href="javascript:toggle();"><h2><b>Portales internacionales &nbsp;</b><i class="fa fa-plus"></i></h2></a>
+		<div id="toggleText" style="display: none">
 	 <div class="row">
         <div class="col-lg-4">
 		<a href="http://www.nature.com/naturejobs/science/">
@@ -222,7 +223,8 @@
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4">
 			</div><!-- /.col-lg-4 -->
-		</div>		
+		</div>
+</div>	<!--colapse-->	
 	<hr>
       <!-- FOOTER -->
 			<footer>
@@ -260,6 +262,19 @@ function toggle() {
 	else {
 		ele.style.display = "block";
 		text.innerHTML = '<h2><b>Portales nacionales &nbsp;</b><i class=\'fa fa-minus\'></i></h2>';	}
+} 
+</script>
+	 <script language="javascript"> 
+function toggle() {
+	var ele = document.getElementById("toggleText");
+	var text = document.getElementById("displayText");
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+		text.innerHTML = "<h2><b>Portales internacionales &nbsp;</b><i class=\'fa fa-plus\'></i></h2>";
+  	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = '<h2><b>Portales internacionales &nbsp;</b><i class=\'fa fa-minus\'></i></h2>';	}
 } 
 </script>
   </body>
